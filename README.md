@@ -134,6 +134,7 @@ Mod | Version | Why
 [SLAYER_Revive](https://github.com/zakriamansoor47/SLAYER_Revive) | `1.3.2` | Revive Your Teammates.
 [cs2-TeleportKill](https://github.com/rodopoulos1/cs2-TeleportKill) | `1.0.1` |  Instantly teleport to the location of the enemy you kill.
 [CS2-BotAI](https://github.com/Austinbots/CS2-BotAI) | `1.3` | Improves the built in bots AI and also makes them run with a gun intead of a knife or nade.
+[jRandomSkills](https://github.com/Juzlus/jRandomSkills) | `v1.1.9a` | This plugin adds random skills in each round for CS2.
 
 ## Share the love
 
