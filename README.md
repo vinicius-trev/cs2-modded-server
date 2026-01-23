@@ -31,9 +31,9 @@ Each game mode has a hand full of maps preset so you are ready to go and it's [e
 - [Soccer](https://www.youtube.com/watch?v=yfltZoMH2Ts) ([Steam API key](#playing-workshop-mapscollections) required)
 - Battle Ball ([Steam API key](#playing-workshop-mapscollections) required)
 
-You can also enable modifiers in game modes from the `!settings` menu in chat i.e. Competitive with random rounds like [NadeKings video](https://www.youtube.com/watch?v=OQQBUFB56Iw).
+You can also enable modifiers in game modes from the `!settings` menu in chat i.e. Competitive with random skills like [NadeKings video](https://www.youtube.com/watch?v=OQQBUFB56Iw).
 
-- [Random Rounds](https://www.youtube.com/watch?v=OQQBUFB56Iw) - CS2, but every round is a SURPRISE.
+- [Random Skills](https://www.youtube.com/watch?v=OQQBUFB56Iw) - CS2, but every round is a SURPRISE.
 - [WarcraftMod](https://www.youtube.com/watch?v=Z9HdF47zPss) - An open-source Warcraft mod for CS2 featuring a fully-fledged RPG system.
 - Roll The Dice - Roll the dice to get either a positive or negative effect for the current round.
 - Bunny hopping
@@ -119,7 +119,6 @@ Mod | Version | Why
 [CS2-CustomVotes](https://github.com/imi-tat0r/CS2-CustomVotes) | `1.1.3` | A plugin for Counter-Strike 2 to create custom votes for settings.
 [deathrun-manager](https://github.com/leoskiline/cs2-deathrun-manager) | `0.5.1` | Deathrun Manager for CounterStrikeSharp Framework CS2.
 [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.5` | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
-[CS2-GameModifiers](https://github.com/vinicius-trev/CS2-GameModifiers-Plugin) | `1.0.4` | CS2, but every round is a SURPRISE. Inspiration from [NadeKings video](https://www.youtube.com/watch?v=OQQBUFB56Iw). Fork from [Lewisscrivens](https://github.com/Lewisscrivens/CS2-GameModifiers-Plugin).
 [CS2FunMatchPlugin](https://github.com/TitaniumLithium/CS2FunMatchPlugin) | `1.1.1` | Random fun mode every round
 [RollTheDice](https://github.com/Kandru/cs2-roll-the-dice) | `26.01.2` | Roll the dice to get either a positive or negative effect for the current round.
 [CS2-FixRandomSpawn](https://github.com/qstage/CS2-FixRandomSpawn) | `1.1.4.1` | Fixes ConVar `mp_randomspawn` for any game mode.
@@ -134,7 +133,7 @@ Mod | Version | Why
 [SLAYER_Revive](https://github.com/zakriamansoor47/SLAYER_Revive) | `1.3.2` | Revive Your Teammates.
 [cs2-TeleportKill](https://github.com/rodopoulos1/cs2-TeleportKill) | `1.0.1` |  Instantly teleport to the location of the enemy you kill.
 [CS2-BotAI](https://github.com/Austinbots/CS2-BotAI) | `1.3` | Improves the built in bots AI and also makes them run with a gun intead of a knife or nade.
-[jRandomSkills](https://github.com/Juzlus/jRandomSkills) | `v1.1.9a` | This plugin adds random skills in each round for CS2.
+[jRandomSkills](https://github.com/Juzlus/jRandomSkills) | `v1.1.9 beta` | This plugin adds random skills in each round for CS2.
 
 ## Share the love
 
