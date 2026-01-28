@@ -7,7 +7,8 @@
   "DebugMode": true,
   "AlternativeSkillButton": null,
   "SkillTimeBeforeStart": 7.0,
-  "SkillDescriptionDuration": 7.0,
+  "SkillHudDuration": 999.0,
+  "SkillDescriptionDuration": 999.0,
   "DisplayAlwaysDescription": false,
   "DisableSpectateHUD": false,
   "FlashingHtmlHudFix": true,
@@ -57,6 +58,16 @@
     "WSADMenuControllsLineColor1": "cyan",
     "WSADMenuControllsLineColor2": "white",
     "WSADMenuControllsLineColor3": "green"
+  },
+  "ChatMessage": {
+    "MaxWidth": 1280.0,
+    "LineSymbol": "―",
+    "LineColor": "\u0004",
+    "LineShow": true,
+    "InfoPlayerNameColor": "\u0002",
+    "InfoSkillColor": "\u0006",
+    "InfoMessageShow": true,
+    "TagFormat": "\u0002◢◤ {TAG} ◥◣"
   },
   "NormalCommands": {
     "SetSkillCommand": {
