@@ -449,12 +449,12 @@
   "vote_alredy_voted": "You have already voted!",
   "vote_vote": "Vote",
 
-
   "bombsite_a": "Bombsite A",
   "bombsite_b": "Bombsite B",
 
   "teammate_skills": "Your teammates' skills",
-  "summary": "Summary of the last round",
+  "summary_start": "======SUMMARY=OF=THE=LAST=ROUND======",
+  "summary_end": "=======================================",
 
   "menu_controlls_scroll": "W/S - Scroll",
   "menu_controlls_padding": "   |   ",
