@@ -54,7 +54,13 @@
   
   "c4camouflage": "Camuflagem C4",
   "c4camouflage_desc": "Você fica invisível enquanto segura a bomba",
-  
+
+  "carefulbullets": "Errou, mamou",
+  "carefulbullets_desc": "Selecione um jogador vai sofrer dano ao errar cada tiro",
+  "carefulbullets_enemy_info": "A partir de agora, seu erro vai literalmente doer.",
+  "carefulbullets_player_info": "'{0}' agora precisa ter mais cuidado.",
+  "carefulbullets_select_info": "O erro prejudica o jogador:",
+
   "catapult": "Catapulta",
   "catapult_desc": "Você tem uma chance aleatória de lançar um inimigo para cima",
   "catapult_desc2": "Sua chance de lançar um inimigo ao acertá-lo é: {0}%",
@@ -170,9 +176,12 @@
   
   "hermit": "Sanguessuga",
   "hermit_desc": "Matar restaura munição e uma parte da sua vida",
-  
+
   "holyhandgrenade": "Granada Obesa",
   "holyhandgrenade_desc": "HEs causam dano dobrado e têm alcance dobrado",
+
+  "iana": "Holograma",
+  "iana_desc": "Clique em [css_useSkill] para controlar seu holograma por alguns segundos",
   
   "impostor": "Impostor",
   "impostor_desc": "Você começa a rodada vestido do time inimigo",
@@ -182,7 +191,7 @@
   
   "jackal": "Lesma",
   "jackal_desc": "Cada adversário deixa um rastro atrás de si",
-  
+
   "jammer": "No Scope",
   "jammer_desc": "Escolha um jogador para desativar a mira",
   "jammer_enemy_info": "Sua mira foi desativada.",

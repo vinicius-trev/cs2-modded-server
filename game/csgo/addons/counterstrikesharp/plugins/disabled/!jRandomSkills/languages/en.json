@@ -55,6 +55,12 @@
   "c4camouflage": "C4 Camouflage",
   "c4camouflage_desc": "You are invisible while holding the bomb",
 
+  "carefulbullets": "Careful Bullets",
+  "carefulbullets_desc": "Select a player who takes damage for every missed shot",
+  "carefulbullets_enemy_info": "From now on, inaccuracy will literally hurt.",
+  "carefulbullets_player_info": "'{0}' must now be more careful.",
+  "carefulbullets_select_info": "Inaccuracy hurts the player:",
+
   "catapult": "Catapult",
   "catapult_desc": "You have a random chance to launch an enemy upwards",
   "catapult_desc2": "Your chance to launch an enemy on hit is: {0}%",
@@ -67,6 +73,10 @@
 
   "cutter": "Cutter",
   "cutter_desc": "Instant kill with a knife",
+
+  "cypher": "Cypher",
+  "cypher_desc": "Click [css_useSkill] to create/switch to a camera",
+  "cypher_nospace": "The camera must be positioned at right angles to the wall",
 
   "darkness": "Darkness",
   "darkness_desc": "Applies a darkness effect to a chosen enemy",
@@ -142,6 +152,7 @@
   "gambler_desc": "Select a skill from the list provided.",
   "gambler_select_info": "Select your skill:",
   "gambler_more": "#00FF00|Refresh for ${0}",
+  "gambler_no_money": "Not enough money.",
 
   "ghost": "Ghost",
   "ghost_desc": "You are completely invisible",
@@ -174,6 +185,9 @@
 
   "holyhandgrenade": "Holy Hand Grenade",
   "holyhandgrenade_desc": "Your HE grenades deal double damage and have double range",
+
+  "iana": "Hologram",
+  "iana_desc": "Click [css_useSkill] to control your hologram for a few seconds",
 
   "impostor": "Impostor",
   "impostor_desc": "You start the round with an enemy player model",
@@ -356,6 +370,7 @@
   "silent_desc": "Your footsteps and jumps are silent to OTHER players",
 
   "sniperelite": "Sniper Elite",
+  "sniperelite_customname": "Sniper Elite Skill",
   "sniperelite_desc": "Click [css_useSkill] to swap your current weapon for an AWP",
 
   "soldier": "Soldier",
@@ -451,10 +466,10 @@
 
   "bombsite_a": "Bombsite A",
   "bombsite_b": "Bombsite B",
+  "bombplanted": "The bomb has been planted\n{0} seconds till detonation",
 
   "teammate_skills": "Your teammates' skills",
-  "summary_start": "======SUMMARY=OF=THE=LAST=ROUND======",
-  "summary_end": "=======================================",
+  "summary": "Summary of the last round",
 
   "menu_controlls_scroll": "W/S - Scroll",
   "menu_controlls_padding": "   |   ",

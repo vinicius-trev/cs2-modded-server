@@ -7,35 +7,40 @@
   "DebugMode": false,
   "AlternativeSkillButton": null,
   "SkillTimeBeforeStart": 7.0,
-  "SkillDescriptionDuration": 7.0,
+  "SkillHudDuration": 999.0,
+  "SkillDescriptionDuration": 999.0,
   "DisplayAlwaysDescription": false,
   "DisableSpectateHUD": false,
   "FlashingHtmlHudFix": true,
   "CS2TraceRayDebug": false,
-  "DisableHUDOnDeathPermission": "@jRandmosSkills/death",
+  "DisableHUDOnDeathPermission": "@jRandomSkills/death",
   "DisableSkillsOnRoundEnd": false,
   "LanguageSystem": {
     "DefaultLangCode": "en",
     "DisableGeoLite": false,
     "LanguageInfos": [
       {
-        "IsoCodes": "CN, TW, HK, MO, SG",
-        "FileName": "pt-br"
+        "IsoCodes": "ZH, CN, TW, HK, MO, SG",
+        "FileName": "zh"
       },
       {
-        "IsoCodes": "PT, BR, AO, CV, GW, MZ, ST, TL",
-        "FileName": "zh"
+        "IsoCodes": "PT-BR, PT, BR, AO, CV, GW, MZ, ST, TL",
+        "FileName": "pt-br"
       },
       {
         "IsoCodes": "FR, MC, HT",
         "FileName": "fr"
       },
       {
+        "IsoCodes": "DE, AT, CH, LI, LU, BE",
+        "FileName": "de"
+      },
+      {
         "IsoCodes": "PL",
         "FileName": "pl"
       },
       {
-        "IsoCodes": "GB, US",
+        "IsoCodes": "EN, GB, US",
         "FileName": "en"
       }
     ]
@@ -58,26 +63,36 @@
     "WSADMenuControllsLineColor2": "white",
     "WSADMenuControllsLineColor3": "green"
   },
+  "ChatMessage": {
+    "MaxWidth": 1280.0,
+    "LineSymbol": "―",
+    "LineColor": "\u0004",
+    "LineShow": true,
+    "InfoPlayerNameColor": "\u0002",
+    "InfoSkillColor": "\u0006",
+    "InfoMessageShow": true,
+    "TagFormat": "\u0002◢◆◤ {TAG} ◥◆◣"
+  },
   "NormalCommands": {
     "SetSkillCommand": {
       "Alias": "ustawskill, ustaw_skill, setskill, set_skill, definirhabilidade, configurarhabilidade, 设置技能, 配置技能",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "SkillsListCommand": {
       "Alias": "supermoc, skille, listamocy, supermoce, skills, listaHabilidades, habilidades, 技能列表, 超能力列表",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "UseSkillCommand": {
       "Alias": "t, useSkill, usarHabilidade, 技能使用, 使用技能",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "HealCommand": {
       "Alias": "heal, ulecz, curar, tratar, 治疗, 治愈",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "ConsoleCommand": {
       "Alias": "console, sv, 控制台, 服务器",
-      "Permissions": "@jRandmosSkills/owner"
+      "Permissions": "@jRandomSkills/owner"
     },
     "HudCommand": {
       "Alias": "hud, hood",
@@ -85,7 +100,7 @@
     },
     "SetStaticSkillCommand": {
       "Alias": "ustawstatycznyskill, ustaw_statyczny_skill, setstaticskill, set_static_skill",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "ChangeLanguageCommand": {
       "Alias": "lang, language, changelang, change_lang, jezyk, język",
@@ -93,14 +108,14 @@
     },
     "ReloadCommand": {
       "Alias": "reload, refresh",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     }
   },
   "VotingCommands": {
     "StartGameCommand": {
       "EnableVoting": true,
       "Alias": "start, go, começar, iniciar, 开始, 启动",
-      "Permissions": "@jRandmosSkills/admin",
+      "Permissions": "@jRandomSkills/admin",
       "StartParams": "mp_freezetime 15; mp_forcecamera 0; mp_overtime_enable 1; sv_cheats 0",
       "SVStartParams": "mp_freezetime 0; mp_forcecamera 0; mp_overtime_enable 1; sv_cheats 1",
       "TimeToVote": 15.0,
@@ -117,7 +132,7 @@
       "TimeToNextSameVoting": 500.0,
       "MinimumPlayersToStartVoting": 2,
       "Alias": "map, mapa, changemap, zmienmape, zmienmape, mudarMapa, trocarMapa, 更换地图, 更改地图",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "SwapCommand": {
       "EnableVoting": true,
@@ -127,7 +142,7 @@
       "TimeToNextSameVoting": 20.0,
       "MinimumPlayersToStartVoting": 2,
       "Alias": "swap, zmiana, trocar, 交换, 切换",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "ShuffleCommand": {
       "EnableVoting": true,
@@ -137,7 +152,7 @@
       "TimeToNextSameVoting": 20.0,
       "MinimumPlayersToStartVoting": 2,
       "Alias": "shuffle, embaralhar, 随机排序, 洗牌",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "PauseCommand": {
       "EnableVoting": true,
@@ -147,7 +162,7 @@
       "TimeToNextSameVoting": 2.0,
       "MinimumPlayersToStartVoting": 2,
       "Alias": "pause, unpause, pausar, despausar, 暂停, 恢复",
-      "Permissions": "@jRandmosSkills/admin"
+      "Permissions": "@jRandomSkills/admin"
     },
     "SetScoreCommand": {
       "EnableVoting": true,
@@ -157,7 +172,7 @@
       "TimeToNextSameVoting": 90.0,
       "MinimumPlayersToStartVoting": 2,
       "Alias": "setscore, wynik, definirPontuacao, configurarPontos, 设置分数, 调整分数",
-      "Permissions": "@jRandmosSkills/owner"
+      "Permissions": "@jRandomSkills/owner"
     }
   }
 }
