@@ -73,6 +73,10 @@
   
   "cutter": "Corte Rápido",
   "cutter_desc": "Você mata instantaneamente com a faca",
+
+  "cypher": "CFTV",
+  "cypher_desc": "Clique em [css_useSkill] para criar/mudar para uma câmera",
+  "cypher_nospace": "A câmera deve ser posicionada em ângulo reto com a parede",
   
   "darkness": "Escuridão",
   "darkness_desc": "Aplica um efeito de escuridão a um inimigo escolhido",
@@ -95,6 +99,7 @@
   "disarmament": "Desarmamento",
   "disarmament_desc": "Você tem uma chance aleatória de fazer um inimigo dropar a arma ao acertá-lo",
   "disarmament_desc2": "Sua chance de desarmar um inimigo é: {0}%",
+
   "distancer": "Medidor de Distância",
   "distancer_desc": "Você pode ver a distância até o inimigo mais próximo",
   
@@ -459,10 +464,10 @@
   
   "bombsite_a": "Bombsite A",
   "bombsite_b": "Bombsite B",
+  "bombplanted": "A bomba foi plantada\n{0} segundos até a detonação",
   
   "teammate_skills": "Habilidades dos seus companheiros de equipe",
-  "summary_start": "=======RESUMO=DA=ÚLTIMA=RODADA=======",
-  "summary_end": "=======================================",
+  "summary": "Resumo da última rodada",
   
   "menu_controlls_scroll": "W/S - Rolar",
   "menu_controlls_padding": "   |   ",
