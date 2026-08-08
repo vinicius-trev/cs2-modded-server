@@ -9,7 +9,7 @@
   "aimlock_desc": "Cliquez sur [css_useSkill] pour verrouiller votre visée sur l'ennemi le plus proche",
 
   "anomaly": "Anomalie",
-  "anomaly_desc": "Vous revenez quelques secondes en arrière dans le temps",
+  "anomaly_desc": "Appuyez sur [css_useSkill] pour remonter de quelques secondes dans le temps",
 
   "antyflash": "Anti-Flash",
   "antyflash_desc": "Vous êtes immunisé contre les flashbangs, et vos flashbangs durent 7 secondes",
@@ -19,11 +19,12 @@
 
   "areareaper": "Faucheur de Zone",
   "areareaper_desc": "Vous pouvez choisir un site de bombe à désactiver",
-  "areareaper_incorrect_site": "Aucun site de bombe trouvé.",
+  "areareaper_incorrect_site": "Aucun site de bombe trouvé",
   "areareaper_no_site": "Aucun site de bombe disponible.",
   "areareaper_select_info": "Sélectionnez un site à désactiver :",
   "areareaper_site_disabled": "Le site de bombe {0} a été désactivé – aucune bombe ne peut y être posée !",
   "areareaper_used_info": "Votre compétence a déjà été utilisée.",
+  "areareaper_teammates_info": "Le site de bombe {0} est désormais interdit au plant.",
   "areareaper_bombsite_disabled": "Ce site de bombe a été désactivé !",
 
   "armored": "Blindé",
@@ -50,8 +51,14 @@
   "behind_desc": "Vous avez une chance aléatoire de retourner un ennemi à 180° en le touchant",
   "behind_desc2": "Votre chance de retourner un ennemi à l’impact est : {0}%",
 
+  "berserker": "Berserker",
+  "berserker_desc": "Vous infligez plus de dégâts et vous déplacez plus vite à mesure que votre santé diminue",
+
   "blademaster": "Maître de Lame",
   "blademaster_desc": "En tenant un couteau, vous avez une forte chance de dévier un tir",
+
+  "blastshot": "Tir explosif",
+  "blastshot_desc": "Appuyez sur Attack2 avec le MP5 pour tirer une grenade HE",
 
   "bunnyhop": "Lapin",
   "bunnyhop_desc": "Vous obtenez l’auto « BunnyHop »",
@@ -62,12 +69,18 @@
   "carefulbullets": "Balles prudentes",
   "carefulbullets_desc": "Sélectionnez un joueur qui subit des dégâts à chaque tir manqué",
   "carefulbullets_enemy_info": "À partir de maintenant, l'inexactitude fera littéralement mal.",
+  "carefulbullets_disable_info": "Rater vos tirs ne vous blessera plus.",
   "carefulbullets_player_info": "« {0} » doit désormais être plus prudent.",
   "carefulbullets_select_info": "L'inexactitude nuit au joueur :",
 
   "catapult": "Catapulte",
   "catapult_desc": "Vous avez une chance aléatoire de projeter un ennemi en l’air",
   "catapult_desc2": "Votre chance de projeter un ennemi à l’impact est : {0}%",
+
+  "chameleon": "Caméléon",
+  "chameleon_desc": "Le premier joueur que vous tuez vous donne sa compétence",
+  "chameleon_copied_info": "Compétence copiée : {0}",
+  "chameleon_wrong_team_info": "'{0}' avait une compétence que votre équipe ne peut pas utiliser.",
 
   "chicken": "Poulet",
   "chicken_desc": "Vous obtenez un modèle de poulet + 10% de vitesse de déplacement en plus - 50 PV",
@@ -85,6 +98,7 @@
   "darkness": "Obscurité",
   "darkness_desc": "Applique un effet d’obscurité à un ennemi choisi",
   "darkness_enemy_info": "Que la lumière s’éteigne.",
+  "darkness_disable_info": "Les lumières sont revenues.",
   "darkness_player_info": "L’obscurité a envahi le joueur « {0} ».",
   "darkness_select_info": "Sélectionnez un joueur pour l’obscurité :",
 
@@ -97,8 +111,16 @@
   "deaf": "Sourd",
   "deaf_desc": "Choisissez un joueur pour couper tous ses sons",
   "deaf_enemy_info": "Votre casque a quitté la partie.",
+  "deaf_disable_info": "Vous entendez de nouveau.",
   "deaf_player_info": "Le son a été désactivé pour le joueur « {0} ».",
   "deaf_select_info": "Couper tous les sons du joueur :",
+
+  "deathbomb": "Bombe",
+  "deathbomb_desc": "Vous explosez à votre mort, tuant les joueurs proches",
+  "deathbomb_explosion": "Kaboom!",
+
+  "demoneye": "Œil démoniaque",
+  "demoneye_desc": "Vous infligez des dégâts à tous les ennemis que vous regardez",
 
   "disarmament": "Désarmement",
   "disarmament_desc": "Vous avez une chance aléatoire de faire lâcher son arme à un ennemi en le touchant",
@@ -125,6 +147,16 @@
   "enemyspawn": "Spawn Ennemi",
   "enemyspawn_desc": "Appuyez sur [css_useSkill] pour vous téléporter au spawn ennemi",
 
+  "expensiveammo": "Munitions coûteuses",
+  "expensiveammo_desc": "Un ennemi choisi doit payer pour chaque tir",
+  "expensiveammo_disable_info": "Vos balles sont à nouveau gratuites.",
+  "expensiveammo_enemy_info": "Chaque tir que vous effectuez vous coûte maintenant {0}$.",
+  "expensiveammo_player_info": "Le joueur '{0}' doit maintenant payer pour chaque balle.",
+  "expensiveammo_select_info": "Sélectionnez un joueur dont les munitions deviendront coûteuses :",
+
+  "explodingbarrel": "Baril explosif",
+  "explodingbarrel_desc": "Cliquez sur [css_useSkill] pour placer un baril qui explose lorsqu'il est touché",
+
   "explosiveshot": "Tir Explosif",
   "explosiveshot_desc": "Chance aléatoire de tirer une balle explosive en tirant",
   "explosiveshot_desc2": "Votre chance de tirer une balle explosive est : {0}%",
@@ -135,9 +167,15 @@
   "fastreload": "Recharge Rapide",
   "fastreload_desc": "Appuyez sur [css_useSkill] pour recharger l’arme que vous tenez",
 
+  "firerain": "Pluie de feu",
+  "firerain_desc": "Lancez un leurre pour déclencher une pluie de cocktails Molotov",
+
   "flash": "Flash",
   "flash_desc": "Vitesse de joueur aléatoire au début du round",
   "flash_desc2": "Votre multiplicateur de vitesse est : {0}x",
+
+  "flashlight": "Lampe torche",
+  "flashlight_desc": "Cliquez sur [css_useSkill] pour allumer ou éteindre la lampe torche. Sa lumière peut aveugler les ennemis",
 
   "fortnite": "Fortnite",
   "fortnite_desc": "Appuyez sur [css_useSkill] pour créer une barricade destructible",
@@ -161,12 +199,21 @@
   "ghost": "Fantôme",
   "ghost_desc": "Vous êtes complètement invisible",
 
+  "giant": "Géant",
+  "giant_desc": "Agrandissez un ennemi de votre choix",
+  "giant_desc2": "Agrandissez un ennemi de votre choix jusqu'à {0}x sa taille normale",
+  "giant_disable_info": "Vous avez retrouvé votre taille normale.",
+  "giant_enemy_info": "Vous avez été agrandi à {0}x votre taille normale.",
+  "giant_player_info": "Vous avez agrandi le joueur '{0}' jusqu'à {1}x sa taille normale.",
+  "giant_select_info": "Sélectionnez un joueur à agrandir :",
+
   "glaz": "Glaz",
   "glaz_desc": "Vous pouvez voir à travers les fumigènes",
 
   "glitch": "Glitch",
   "glitch_desc": "Désactive le radar d’un ennemi choisi",
   "glitch_enemy_info": "Votre radar a été désactivé.",
+  "glitch_disable_info": "Votre radar est revenu à la normale.",
   "glitch_player_info": "Le radar du joueur « {0} » a été désactivé.",
   "glitch_select_info": "Désactiver le radar du joueur :",
 
@@ -178,11 +225,19 @@
   "godmode_off": "Immortalité désactivée",
   "godmode_on": "Immortalité activée",
 
+  "grapple": "Grappin",
+  "grapple_desc": "Appuyez sur [css_useSkill] pour lancer un grappin sur le point visé et vous y propulser",
+  "grapple_no_anchor_info": "Aucune surface pour accrocher le grappin.",
+  "grapple_pulling_info": "TRACTION",
+
   "grenadier": "Grenadier",
   "grenadier_desc": "Tu as des grenades HE infinies",
 
   "healingsmoke": "Fumigène Soin",
   "healingsmoke_desc": "Vos fumigènes soignent",
+
+  "healingchicken": "Poulet guérisseur",
+  "healingchicken_desc": "Vos poulets vous soignent lorsque vous êtes à proximité",
 
   "hermit": "Ermite",
   "hermit_desc": "Tuer restaure des munitions et une partie de vos PV",
@@ -196,12 +251,14 @@
   "hotbomb": "Bombe brûlante",
   "hotbomb_desc": "Tant que vous êtes en vie, la bombe inflige des dégâts à son porteur",
   "hotbomb_hint": "Attention, la bombe est brûlante !",
+  "hotbomb_disable_info": "La bombe ne brûle plus.",
 
   "iana": "Hologramme",
   "iana_desc": "Cliquez sur [css_useSkill] pour contrôler votre hologramme pendant quelques secondes",
 
   "illiterate": "Illettré",
-  "illiterate_desc": "Tant que vous êtes en vie, vos ennemis ne mogą pas lire",
+  "illiterate_desc": "Tant que vous êtes en vie, vos ennemis ne peuvent pas lire",
+  "illiterate_alert": "Illettré est actif ! Vous ne pouvez pas lire les messages tant que le propriétaire de cette compétence n'est pas éliminé",
 
   "illusionist": "Illusionniste",
   "illusionist_desc": "Cliquez sur [css_useSkill] pour déployer une réplique qui marche droit devant",
@@ -212,12 +269,18 @@
   "infiniteammo": "Munitions Infinies",
   "infiniteammo_desc": "Vous recevez des munitions infinies pour toutes vos armes",
 
+  "inheritance": "Héritage",
+  "inheritance_desc": "Quand un coéquipier meurt, vous pouvez reprendre sa compétence",
+  "inheritance_select_info": "Choisissez la compétence à hériter :",
+  "inheritance_player_info": "Vous avez hérité de la compétence de '{0}'.",
+
   "jackal": "Traqueur",
   "jackal_desc": "Chaque adversaire laisse une trace derrière lui",
 
   "jammer": "Brouilleur",
   "jammer_desc": "Choisissez un joueur pour désactiver son viseur",
   "jammer_enemy_info": "Votre viseur a été désactivé.",
+  "jammer_disable_info": "Votre réticule est revenu à la normale.",
   "jammer_player_info": "Le viseur du joueur « {0} » a été désactivé.",
   "jammer_select_info": "Désactiver le viseur d’un joueur :",
 
@@ -227,17 +290,38 @@
   "jester_on": "ACTIVÉ",
   "jester_off": "DÉSACTIVÉ",
 
+  "jetkick": "Coup de pied propulsé",
+  "jetkick_desc": "Sélectionnez un joueur pour lui donner un coup de pied propulsé",
+  "jetkick_select_info": "Sélectionnez un joueur à propulser :",
+  "jetkick_player_info": "Le joueur '{0}' a reçu un coup de pied propulsé.",
+  "jetkick_enemy_info": "Chaque tir vous repousse vers l'arrière",
+  "jetkick_disable_info": "Votre recul est revenu à la normale.",
+
   "jumpban": "Sans Jambes",
   "jumpban_desc": "Choisissez un joueur qui ne pourra plus sauter",
   "jumpban_enemy_info": "Quelqu’un vous a coupé les jambes.",
+  "jumpban_disable_info": "Vous pouvez de nouveau utiliser vos jambes.",
   "jumpban_player_info": "Le joueur « {0} » ne peut plus sauter.",
   "jumpban_select_info": "Interdire de sauter au joueur :",
+
+  "jumpcurse": "Malédiction du saut",
+  "jumpcurse_desc": "Un ennemi choisi saute chaque fois que l'un de ses coéquipiers saute",
+  "jumpcurse_disable_info": "Vous pouvez à nouveau contrôler vos sauts.",
+  "jumpcurse_enemy_info": "Vous sautez maintenant chaque fois que l'un de vos coéquipiers saute.",
+  "jumpcurse_player_info": "Le joueur '{0}' saute maintenant chaque fois que ses coéquipiers sautent.",
+  "jumpcurse_select_info": "Sélectionnez un joueur à maudire :",
 
   "jumpingjack": "Sauteur",
   "jumpingjack_desc": "Sauter vous rend de la vie",
 
   "killerflash": "Flash Mortel",
   "killerflash_desc": "Toute personne totalement aveuglée par votre flashbang meurt (y compris vous)",
+
+  "knockback": "Repoussement",
+  "knockback_desc": "Tirer dans les airs vous repousse vers l'arrière",
+
+  "lastgasp": "Dernier souffle",
+  "lastgasp_desc": "Après votre mort, vous infligez des dégâts à l'ennemi qui vous a tué",
 
   "lifeswap": "Échange de Vie",
   "lifeswap_desc": "Choisissez un joueur avec qui échanger votre santé",
@@ -260,6 +344,7 @@
   "magnifier": "Loupe",
   "magnifier_desc": "Force l’écran de l’ennemi à zoomer, réduisant son champ de vision",
   "magnifier_enemy_info": "Votre champ de vision a été déformé !",
+  "magnifier_disable_info": "Votre vision est revenue à la normale.",
   "magnifier_player_info": "Le joueur « {0} » a été forcé en mode zoom.",
   "magnifier_select_info": "Forcer l’écran du joueur à zoomer :",
 
@@ -275,9 +360,12 @@
   "bankrupt_player_info": "Le joueur « {0} » est en faillite.",
   "bankrupt_select_info": "Mettre un joueur en faillite :",
 
-  "deathbomb": "Bombe",
-  "deathbomb_desc": "Vous explosez à votre mort, tuant les joueurs proches",
-  "deathbomb_explosion": "Kaboom!",
+  "nightmare": "Cauchemar",
+  "nightmare_desc": "Faites subir une vision terrifiante à un ennemi choisi",
+  "nightmare_disable_info": "Le cauchemar s'est dissipé.",
+  "nightmare_enemy_info": "Un cauchemar obscurcit votre vision.",
+  "nightmare_player_info": "Vous avez lancé un cauchemar sur le joueur '{0}'.",
+  "nightmare_select_info": "Sélectionnez un joueur pour le cauchemar :",
 
   "ninja": "Ninja",
   "ninja_desc": "Rester immobile augmente votre invisibilité de 33%, s’accroupir de 33%, et tenir un couteau de 33%",
@@ -321,12 +409,14 @@
   "poison": "Poison",
   "poison_desc": "Choisissez un joueur qui subira des dégâts toutes les quelques secondes",
   "poison_enemy_info": "Vous avez été empoisonné.",
+  "poison_disable_info": "Vous êtes désormais immunisé contre le poison.",
   "poison_player_info": "Le joueur « {0} » a été empoisonné.",
   "poison_select_info": "Empoisonner un joueur :",
 
   "primaryban": "Sans Fusils",
   "primaryban_desc": "Choisissez un joueur qui ne pourra plus utiliser de fusils",
   "primaryban_enemy_info": "Vous ne pouvez plus utiliser de fusils.",
+  "primaryban_disable_info": "Vous pouvez de nouveau utiliser des fusils.",
   "primaryban_player_info": "Le joueur « {0} » ne peut plus utiliser de fusils.",
   "primaryban_select_info": "Interdire les fusils pour un joueur :",
 
@@ -373,6 +463,9 @@
   "richboy": "Gosse de Riche",
   "richboy_desc": "Vous recevez une somme d’argent aléatoire au début du round",
 
+  "ricochet": "Ricochet",
+  "ricochet_desc": "Vos balles rebondissent sur les murs et peuvent encore toucher les ennemis",
+
   "robinhood": "Robin des Bois",
   "robinhood_desc": "Infliger des dégâts à un ennemi lui vole de l’argent",
 
@@ -408,13 +501,24 @@
   "soldier_desc2": "Votre multiplicateur de dégâts est : {0}x",
 
   "soundmaker": "Faiseur de Bruit",
-  "soundmaker_desc": "Appuyez sur [css_useSkill] pour déclencher un son pour chaque ennemi",
+  "soundmaker_desc": "De temps en temps, vous entendez les cris des joueurs",
 
   "spectator": "Spectateur",
   "spectator_desc": "Appuyez sur [css_useSkill] pour observer un ennemi aléatoire",
 
   "swapposition": "Échange de Position",
   "swapposition_desc": "Appuyez sur [css_useSkill] pour échanger de place avec un ennemi aléatoire",
+
+  "takeammo": "Prendre des munitions",
+  "takeammo_desc": "Cliquez sur [css_useSkill] pour prendre le chargeur de l'arme active d'un ennemi aléatoire",
+  "takeammo_hud_info1": "Aucun joueur avec un chargeur actif n'a été trouvé.",
+  "takeammo_hud_info2": "L'ennemi n'a pas de chargeur.",
+  "takeammo_enemy_info": "Vous avez perdu des munitions.",
+
+  "teamteleport": "Téléportation d'équipe",
+  "teamteleport_desc": "Appuyez sur [css_useSkill] pour vous téléporter vers le coéquipier que vous regardez",
+  "teamteleport_noenemy": "Aucun coéquipier trouvé",
+  "teamteleport_hud_info": "Trouvé : {0}",
 
   "teleporter": "Téléporteur",
   "teleporter_desc": "Vous avez une chance d'échanger votre place avec un ennemi touché",
@@ -439,6 +543,12 @@
   "toxicsmoke": "Fumée Toxique",
   "toxicsmoke_desc": "Vos grenades fumigènes infligent des dégâts",
 
+  "tripwire": "Fil-piège",
+  "tripwire_desc": "Cliquez sur [css_useSkill] pour tendre un fil entre deux murs. Les ennemis qui le touchent apparaissent sur votre radar",
+  "tripwire_no_wall_info": "Aucun mur n'est suffisamment proche des deux côtés.",
+  "tripwire_placed_info": "Fil-piège placé.",
+  "tripwire_triggered_info": "'{0}' a déclenché votre fil-piège.",
+
   "wallhack": "Wallhack",
   "wallhack_desc": "Vous pouvez voir les ennemis à travers les murs",
 
@@ -457,6 +567,8 @@
   "wildthrow": "Lancers sauvages",
   "wildthrow_desc": "Choisissez un joueur qui aura des difficultés à lancer des grenades",
   "wildthrow_player_info": "Le joueur '{0}' a oublié tous ses alignements (lineups)",
+  "wildthrow_enemy_info": "Vous êtes trop nerveux lorsque vous lancez des grenades.",
+  "wildthrow_disable_info": "Votre mémoire concernant le lancer de grenades est revenue à la normale.",
   "wildthrow_select_info": "Sélectionnez un joueur :",
 
   "zeus": "Zeus",
@@ -478,6 +590,7 @@
   "duplicate_player": "Plus d’un joueur trouvé avec le même nom.",
   "selectplayerskill_command": "Tapez /t",
   "selectplayerskill_incorrect_enemy_index": "Aucun joueur trouvé à sélectionner.",
+  "curse_limit_info": "La limite de malédictions pour {0} a été atteinte",
 
   "skill_not_found_setskill": "Aucune CHATCOLORS.REDcompétence trouvée",
   "player_not_found_setskill": "Aucun CHATCOLORS.REDjoueur trouvé",
@@ -514,6 +627,6 @@
   "summary": "Résumé du dernier round",
 
   "menu_controlls_scroll": "W/S - Défilement",
-  "menu_controlls_padding": "   |   ",
+  "menu_controlls_padding": "    |    ",
   "menu_controlls_select": "E - Sélectionner"
 }

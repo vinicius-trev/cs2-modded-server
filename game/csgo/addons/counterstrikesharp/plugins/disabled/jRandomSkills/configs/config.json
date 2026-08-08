@@ -7,17 +7,21 @@
   "SummaryAfterTheRound": true,
   "EnableBotSkills": true,
   "EnableBotKickDebug": false,
+  "EnableFullForceUpdate": false,
   "DebugMode": false,
+  "PerfMode": false,
   "AlternativeSkillButton": null,
   "SkillTimeBeforeStart": 7.0,
   "SkillHudDuration": -1.0,
   "SkillDescriptionDuration": 7.0,
   "DisplayAlwaysDescription": false,
   "DisableSpectateHUD": false,
+  "HideHudForOtherPlugins": true,
   "EnableFlashingHtmlHudFix": false,
   "TraceRayBeam": false,
   "DisableHUDOnDeathPermission": "@jRandomSkills/death",
   "DisableSkillsOnRoundEnd": false,
+  "CurseSkillPerPlayer": null,
   "LanguageSystem": {
     "DefaultLangCode": "en",
     "DisableGeoLite": false,
@@ -140,6 +144,10 @@
     "NextCommand": {
       "Alias": "next_skill",
       "Permissions": "@jRandomSkills/admin"
+    },
+    "CheckEntityCommand": {
+      "Alias": "ent, entity, checkentity, check_entity, sprawdzencje, checkent, check_ent, 检查实体, 检查实体",
+      "Permissions": "@jRandomSkills/owner"
     }
   },
   "VotingCommands": {
