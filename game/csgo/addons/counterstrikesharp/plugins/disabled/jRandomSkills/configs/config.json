@@ -1,4 +1,4 @@
-{
+﻿{
   "ConfigName": "Default",
   "GameMode": 3,
   "YourSkillChatInfo": true,
@@ -8,7 +8,7 @@
   "EnableBotSkills": true,
   "EnableBotKickDebug": false,
   "EnableFullForceUpdate": false,
-  "DebugMode": false,
+  "DebugMode": 0,
   "PerfMode": false,
   "AlternativeSkillButton": null,
   "SkillTimeBeforeStart": 7.0,
@@ -22,6 +22,55 @@
   "DisableHUDOnDeathPermission": "@jRandomSkills/death",
   "DisableSkillsOnRoundEnd": false,
   "CurseSkillPerPlayer": null,
+  "ShowDecoyRing": true,
+  "Weapons": {
+    "Rifle": [
+      "weapon_ak47",
+      "weapon_m4a1",
+      "weapon_m4a1_silencer",
+      "weapon_famas",
+      "weapon_galilar",
+      "weapon_aug",
+      "weapon_sg556",
+      "weapon_mp9",
+      "weapon_mac10",
+      "weapon_bizon",
+      "weapon_mp7",
+      "weapon_ump45",
+      "weapon_p90",
+      "weapon_mp5sd",
+      "weapon_ssg08",
+      "weapon_awp",
+      "weapon_scar20",
+      "weapon_g3sg1",
+      "weapon_nova",
+      "weapon_xm1014",
+      "weapon_mag7",
+      "weapon_sawedoff",
+      "weapon_m249",
+      "weapon_negev"
+    ],
+    "Pistol": [
+      "weapon_deagle",
+      "weapon_revolver",
+      "weapon_glock",
+      "weapon_usp_silencer",
+      "weapon_cz75a",
+      "weapon_fiveseven",
+      "weapon_p250",
+      "weapon_tec9",
+      "weapon_elite",
+      "weapon_hkp2000"
+    ],
+    "Grenade": [
+      "weapon_hegrenade",
+      "weapon_flashbang",
+      "weapon_smokegrenade",
+      "weapon_molotov",
+      "weapon_incgrenade",
+      "weapon_decoy"
+    ]
+  },
   "LanguageSystem": {
     "DefaultLangCode": "en",
     "DisableGeoLite": false,
@@ -77,6 +126,7 @@
     "WSADMenuItemLineColor": "white",
     "WSADMenuItemHoverLineColor": "orange",
     "WSADMenuItemLineSize": "sm",
+    "WSADMenuVisibleItems": 3,
     "WSADMenuControllsLineSize": "sm",
     "WSADMenuControllsLineColor1": "cyan",
     "WSADMenuControllsLineColor2": "white",
@@ -146,7 +196,7 @@
       "Permissions": "@jRandomSkills/admin"
     },
     "CheckEntityCommand": {
-      "Alias": "ent, entity, checkentity, check_entity, sprawdzencje, checkent, check_ent, 检查实体, 检查实体",
+      "Alias": "ent, entity, checkentity, check_entity, sprawdzencje, checkent, check_ent, 检查实体",
       "Permissions": "@jRandomSkills/owner"
     }
   },
@@ -170,7 +220,7 @@
       "TimeToNextVoting": 15.0,
       "TimeToNextSameVoting": 500.0,
       "MinimumPlayersToStartVoting": 2,
-      "Alias": "map, mapa, changemap, zmienmape, zmienmape, mudarMapa, trocarMapa, 更换地图, 更改地图",
+      "Alias": "map, mapa, changemap, zmienmape, mudarMapa, trocarMapa, 更换地图, 更改地图",
       "Permissions": "@jRandomSkills/admin"
     },
     "SwapCommand": {
